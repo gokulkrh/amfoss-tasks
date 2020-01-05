@@ -13,10 +13,18 @@ These are the tasks I was able to complete till now.(11 out of 14)
 
   I used python 3 to complete all the questions. I had no prior experience in computer science and I learned python during the first semester of college.
   
+3. Google Scraping using Ruby
+
+  Here I used the inspector window of the browser to find the HTML class of the title and url of the search results. Using Nokogiri I parsed two consecutive search results page and displays the first ten results in text format.
+  
 6. CLI App using Go:
 
   I went through the resources provided with the task and learned more about Go. The idea was to access the Users/show endpoint of the twitter API by sending a GET request. In order to do that I had to apply for a twitter developer account to recieve the consumer keys and access tokens. I used "Twitter API" which is a Go package for accessing version 1.1 of the Twitter API (https://github.com/amit-lulla/twitterapi). There were several resources online explaining the process of writing output to text file in Go.
   
+7. Rusted Email
+
+  The general pattern for e-mail adress is a username followed by an @ symbol followed by domain. I found the regular expression for an e-mail id online ([a-z0-9_+]([a-z0-9_+.]*[a-z0-9_+])?)@([a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,6}) and used the regex crate in rust to validate the input email-id
+
 8. Captcha Breaking:
 
   For this task I made a black and white png image with a simple arithmetic expression. The program I wrote is very basic. I used PIL and pytesseract ocr to extract the text from image as a string. I came across the built in eval() function in python which evaluates a string like a python expression and returns the result as an integer.
