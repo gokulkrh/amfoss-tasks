@@ -23,7 +23,7 @@ These are the tasks I was able to complete till now.(11 out of 14)
   
 7. Rusted Email
 
-  The general pattern for e-mail adress is a username followed by an @ symbol followed by domain. I found the regular expression for an e-mail id online ([a-z0-9_+]([a-z0-9_+.]*[a-z0-9_+])?)@([a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,6}) and used the regex crate in rust to validate the input email-id
+  The general pattern for e-mail adress is a username followed by an @ symbol followed by domain. I found the regular expression for an e-mail id online ( "[a-z0-9_+]([a-z0-9_+.]*[a-z0-9_+])?)@([a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,6}" ) and used the regex crate in rust to validate the input email-id
 
 8. Captcha Breaking:
 
