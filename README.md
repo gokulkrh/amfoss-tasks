@@ -1,5 +1,5 @@
 # amfoss-tasks (Gokul Krishnan G CSE19321)
-These are the tasks I was able to complete till now.(11 out of 14)
+These are the tasks I was able to complete till now. (11)
 
 0. Install Ubuntu 18.04:
 
