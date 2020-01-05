@@ -3,7 +3,7 @@ These are the tasks I was able to complete till now. (11)
 
 0. Install Ubuntu 18.04:
 
-  Installing ubuntu was way easier than I thought.I downloaded ubuntu 18.04 and created a bootable usb drive for installing. Then it was just a matter of following the on screen instructions and making partitions. I did run into an error though, the installer was not detecting my hard drive. I got round this by changing the SATA operation mode in the bios from RAID to AHCI.
+  Installing ubuntu was way easier than I thought. I downloaded ubuntu 18.04 and created a bootable usb drive for installing. Then it was just a matter of following the on screen instructions and making partitions. I did run into an error though, the installer was not detecting my hard drive. I got round this by changing the SATA operation mode in the bios from RAID to AHCI.
 
 1. Star all the amFOSS repositories:
 
@@ -21,34 +21,33 @@ These are the tasks I was able to complete till now. (11)
 
   I went through the resources provided with the task and learned more about Go. The idea was to access the Users/show endpoint of the twitter API by sending a GET request. In order to do that I had to apply for a twitter developer account to recieve the consumer keys and access tokens. I used "Twitter API" which is a Go package for accessing version 1.1 of the Twitter API (https://github.com/amit-lulla/twitterapi). There were several resources online explaining the process of writing output to text file in Go.
   
-7. Rusted Email
+7. Rusted Email:
 
-  The general pattern for e-mail adress is a username followed by an @ symbol followed by domain. I found the regular expression for an e-mail id online ( "[a-z0-9_+]([a-z0-9_+.]*[a-z0-9_+])?)@([a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,6}" ) and used the regex crate in rust to validate the input email-id
+  The general pattern for e-mail adress is a username followed by an @ symbol followed by domain. I found the regular expression for an e-mail id online ( "[a-z0-9_+]([a-z0-9_+.]*[a-z0-9_+])?)@([a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,6}" ) and used the regex crate in rust to validate the input email-id.
 
 8. Captcha Breaking:
 
   For this task I made a black and white png image with a simple arithmetic expression. The program I wrote is very basic. I used PIL and pytesseract ocr to extract the text from image as a string. I came across the built in eval() function in python which evaluates a string like a python expression and returns the result as an integer.
  
-9. Setup a Simple Personal Website
+9. Setup a Simple Personal Website:
 
   I used the repository mentioned in the task and the followed the instructions to set up my website.
-  
-  link:
+ link: https://gokulkrh.github.io/2020/01/04/amfoss-tasks/
 
-10. CS50
+10. CS50:
 
   I watched all the lectures till week 5 but didn't complete the problem sets.
   
 Additional Tasks
 
-11. A Pong game
+11. A Pong game:
 
   I found several online tutorials and resources for building the game. I followed this tutorial on youtube (https://www.youtube.com/watch?v=KApAJhkkqkA) and made an offline multiplayer version of it.
   
-13. Project Euler (for math freaks)
+13. Project Euler (for math freaks):
 
   I used python 3 and was able complete 4 out of 5 questions but it showed runtime errors and time limit exceeded errors in some test cases.
   
-14. Bandit
+14. Bandit:
   
   completed bandit till level 10.
