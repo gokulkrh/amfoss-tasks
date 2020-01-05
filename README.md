@@ -30,7 +30,7 @@ Additional Tasks
 
 11. A Pong game
 
-  I found several online tutorials and resources for building the game. I followed this tutorial on youtube (https://www.youtube.com/watch?v=KApAJhkkqkA) and made an offline multiplayer version pf it.
+  I found several online tutorials and resources for building the game. I followed this tutorial on youtube (https://www.youtube.com/watch?v=KApAJhkkqkA) and made an offline multiplayer version of it.
   
 13. Project Euler (for math freaks)
 
