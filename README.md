@@ -24,8 +24,13 @@ These are the tasks I was able to complete till now.(11 out of 14)
 9. Setup a Simple Personal Website
 
   I used the repository mentioned in the task and the followed the instructions to set up my website.
+  
   link:
- 
+
+10. CS50
+
+  I watched all the lectures till week 5 but didn't complete the problem sets.
+  
 Additional Tasks
 
 11. A Pong game
