@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>userinfo</title>
+	<b>This page helps you find information about any github user
+	just by entering a username.<br></b>
+</head>
+<body>
+	<br>
+	<div>
+		<input type="text" placeholder="username" id="username">
+		<button type="button" onclick="info();">GO</button>
+	</div>
+	
+	<div id = "login"></div>
+	<div id = "name"></div>
+	<div id = "bio"></div>
+	<div id = "avat"></div>
+
+	<script>
+		function info() {
+			var user = document.getElementById("username").value;
+			var query = `query User($user: String!) {
+							user(login: $user) {
+								name
+								login
+								bio
+								avatarUrl
+							}
+						}`
+			
+			fetch('https://api.github.com/graphql', {
+  				method: 'POST',
+  				headers: { 'Content-Type': 'application/json',
+  				'Accept': 'application/json',
+  				'Authorization': 'bearer 173783a52c6cbbe59a72bba368ff64a0d6823a8a' },
+  				body: JSON.stringify({
+  					query,
+  					variables: {user}
+  				}),
+			})
+  			.then(res => res.json())
+  			.then(data => {
+  				if (data.data.user==null) {
+  					alert("no person exists! please check the username")
+  				}
+  				else {
+  					document.getElementById("login").innerHTML = "Username: " + data.data.user.login;
+  					document.getElementById("name").innerHTML = "name: " + data.data.user.name;
+  					document.getElementById("bio").innerHTML = "bio: " + data.data.user.bio;
+  					document.getElementById("avat").innerHTML = "avatar url: " + data.data.user.avatarUrl;
+  				}
+  			});
+		}
+	</script>	
+
+
+</body>
+</html>
