@@ -1,5 +1,5 @@
 # amfoss-tasks (Gokul Krishnan G CSE19321)
-These are the tasks I was able to complete till now, 14 out of 15.
+These are the tasks I was able to complete till now, 14 out of 15.(task 4 not completed)
 
 0. Install Ubuntu 18.04:
 
@@ -17,6 +17,9 @@ These are the tasks I was able to complete till now, 14 out of 15.
 
   Here I used the inspector window of the browser to find the HTML class of the title and url of the search results. Using Nokogiri I parsed two consecutive search results page and displays the first ten results in text format.
 
+4. Advanced XOR:
+
+  While going through the program I found out that the keylenght is 5, but I was still unable extract the plaintext.
 
 5.Get it using javascript:
 
