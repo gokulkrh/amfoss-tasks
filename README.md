@@ -1,5 +1,5 @@
 # amfoss-tasks (Gokul Krishnan G CSE19321)
-These are the tasks I was able to complete till now. (11)
+These are the tasks I was able to complete till now, 14 out of 15.
 
 0. Install Ubuntu 18.04:
 
@@ -16,6 +16,11 @@ These are the tasks I was able to complete till now. (11)
 3. Google Scraping using Ruby
 
   Here I used the inspector window of the browser to find the HTML class of the title and url of the search results. Using Nokogiri I parsed two consecutive search results page and displays the first ten results in text format.
+
+
+5.Get it using javascript:
+
+I designed a basic webpage using html. I went through github's grapql api's documentation and watched several youtube videos to make the queries. I also had to get a personal access token from github so that I can authorize my requests. My webpage shows the usernam, name, bio and avatarlink of the given user, If no person exists it displays an alert box saying no person exists. Also, github has revoked my access token when i uploaded the program.
   
 6. CLI App using Go:
 
@@ -36,17 +41,21 @@ These are the tasks I was able to complete till now. (11)
 
 10. CS50:
 
-  I watched all the lectures till week 5 but didn't complete the problem sets.
+  I watched all the lectures till week 5 and completed the problemsets as much as I could.
   
 Additional Tasks
 
 11. A Pong game:
 
   I found several online tutorials and resources for building the game. I followed this tutorial on youtube (https://www.youtube.com/watch?v=KApAJhkkqkA) and made an offline multiplayer version of it.
+ 
+12. Python Source:
+
+  For this task I first converted the individual hexadecimal values to decimal and checked which ascii value when xored according to the program gives the decimal in the ciphertext. Then I reversed the shift function in the program to extract a list containing the flag. It took me a long time as I did most of the process on paper, I don't know if I'm supposed to do it like this but still I was able to solve the task.
   
 13. Project Euler (for math freaks):
 
-  I used python 3 and was able complete 4 out of 5 questions but it showed runtime errors and time limit exceeded errors in some test cases.
+  I used python 3 and was able complete all the questions but it showed runtime errors and time limit exceeded errors in some test cases.
   
 14. Bandit:
   
