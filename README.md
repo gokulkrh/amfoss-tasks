@@ -40,7 +40,8 @@ I designed a basic webpage using html. I went through github's grapql api's docu
 9. Setup a Simple Personal Website:
 
   I used the repository mentioned in the task and the followed the instructions to set up my website.
- link: https://gokulkrh.github.io/2020/01/04/amfoss-tasks/
+ 
+ link: https://gokulkrh.github.io/
 
 10. CS50:
 
