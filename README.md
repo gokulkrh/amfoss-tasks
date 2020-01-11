@@ -21,7 +21,7 @@ These are the tasks I was able to complete till now, 14 out of 15.(task 4 not co
 
   While going through the program I found out that the keylenght is 5, but I was still unable extract the plaintext.
 
-5.Get it using javascript:
+ 5.Get it using javascript:
 
 I designed a basic webpage using html. I went through github's grapql api's documentation and watched several youtube videos to make the queries. I also had to get a personal access token from github so that I can authorize my requests. My webpage shows the usernam, name, bio and avatarlink of the given user, If no person exists it displays an alert box saying no person exists. Also, github has revoked my access token when i uploaded the program.
   
