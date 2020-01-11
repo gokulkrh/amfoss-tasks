@@ -19,7 +19,7 @@ These are the tasks I was able to complete till now, 14 out of 15.(task 4 not co
 
 4. Advanced XOR:
 
-  While going through the program I found out that the keylenght is 5, but I was still unable extract the plaintext.
+  While going through the program I found out that the keylength is 5, but I was still unable extract the plaintext.
 
 5. Get it using Javascript:
 
