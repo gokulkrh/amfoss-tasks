@@ -3,7 +3,7 @@ These are the tasks I was able to complete till now, 14 out of 15.(task 4 not co
 
 0. Install Ubuntu 18.04:
 
-  Installing ubuntu was way easier than I thought. I downloaded ubuntu 18.04 and created a bootable usb drive for installing. Then it was just a matter of following the on screen instructions and making partitions. I did run into an error though, the installer was not detecting my hard drive. I got round this by changing the SATA operation mode in the bios from RAID to AHCI.
+  Installing ubuntu was way easier than I thought. I downloaded ubuntu 18.04 and created a bootable usb drive for installing. Then it was just a matter of following the on screen instructions and making partitions. I did run into an error though, the installer was not detecting my hard drive. I got round this by changing the SATA operation mode in the bios from RAID to AHCI. I also created a blog in github pages.
 
 1. Star all the amFOSS repositories:
 
@@ -23,7 +23,7 @@ These are the tasks I was able to complete till now, 14 out of 15.(task 4 not co
 
 5. Get it using Javascript:
 
-I designed a basic webpage using html. I went through github's grapql api's documentation and watched several youtube videos to make the queries. I also had to get a personal access token from github so that I can authorize my requests. My webpage shows the usernam, name, bio and avatarlink of the given user, If no person exists it displays an alert box saying no person exists. Also, github has revoked my access token when i uploaded the program.
+I designed a basic webpage using html. I went through github's graphql api's documentation and watched several youtube videos to make the queries. I also had to get a personal access token from github so that I can authorize my requests. My webpage shows the username, name, bio and avatarlink of the given user, If no person exists it displays an alert box saying no person exists. Also, github has revoked my access token when i uploaded the program.
   
 6. CLI App using Go:
 
