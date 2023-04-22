@@ -10,9 +10,9 @@ import(
 func main() {
 	handlePtr := flag.String("handle", "abcd", "twitterhandle")
 	flag.Parse()
-	twitterapi.SetConsumerKey("nKPuhKiV3FqFrVJIJ7BUOjZ5p")
-	twitterapi.SetConsumerSecret("hGjqN4RK4h0WmSNZEK9YNFtWofmxJYQUYIo2Eftk3B5inMmGmK")
-	api := twitterapi.NewTwitterApi("1208336848734474241-L7JqxgpCSQsRqiLX0kKVk5wglwjCmj", "06hPj2H70ZimYjB0ONr7q0YWZuWHgRFPx0kNoO545aCFG")
+	twitterapi.SetConsumerKey("consumerkey")
+	twitterapi.SetConsumerSecret("consumersecret")
+	api := twitterapi.NewTwitterApi("", "") //refer github.com/amit-lulla/twitterapi
 	
 	var data twitterapi.User
 	data, _ = api.GetUsersShow(*handlePtr, nil)
